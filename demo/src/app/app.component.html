@@ -1,0 +1,21 @@
+<h1>
+  {{title}}
+</h1>
+
+<my-element>Misty</my-element>
+<my-element><h2 style="display: inline-block;">Misty</h2></my-element>
+
+<paper-input label="Input">
+  <div prefix>{{prefix}}</div>
+  <div suffix>.00</div>
+</paper-input>
+<button (click)="togglePrefix()">Toggle prefix</button>
+
+<vaadin-grid [items]="registrations">
+  <table>
+    <colgroup>
+      <col sortable name="is">
+      <col name="extends">
+    </colgroup>
+  </table>
+</vaadin-grid>

@@ -1,0 +1,11 @@
+node_modules
+
+.idea
+*.iml
+
+npm-debug.log
+bundles
+typings
+src/*.js
+src/*.d.ts
+src/*.js.map

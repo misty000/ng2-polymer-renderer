@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Misty <pyleaf@sohu.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.7.1",
+    "webcomponentsjs": "^0.7.23",
+    "paper-input": "^1.1.22",
+    "vaadin-grid": "^1.2.1"
+  }
+}

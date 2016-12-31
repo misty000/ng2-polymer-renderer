@@ -1,0 +1,11 @@
+node_modules
+
+typings
+
+.idea
+*.iml
+
+demo
+
+tsconfig.json
+typings.json
