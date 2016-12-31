@@ -3,8 +3,8 @@ import {NgModule, CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 import {FormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
 import {AppComponent} from "./app.component";
-import {PolymerRendererModule} from "ng2-polymer-renderer";
 import {PolymerElement} from "@vaadin/angular2-polymer";
+import {PolymerRendererModule} from "ng2-polymer-renderer";
 
 @NgModule({
   declarations: [

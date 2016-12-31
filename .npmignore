@@ -8,4 +8,5 @@ typings
 demo
 
 tsconfig.json
+tsconfig-build.json
 typings.json

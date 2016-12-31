@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.ts",
-  "module": "index.ts",
+  "module": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "ngc -p tsconfig-build.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo:clean": "cd demo/ && npm uninstall ng2-polymer-renderer && npm install",
+    "install:typings": "typings install"
   },
   "author": "Misty000",
   "license": "MIT",
