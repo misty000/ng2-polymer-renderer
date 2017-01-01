@@ -6,7 +6,7 @@ import {RenderDebugInfo} from "@angular/core/src/render/api";
 
 declare var Polymer: any
 
-const REGISTRATIONS = Polymer && Polymer.telemetry.registrations.map(v => v.is)
+const REGISTRATIONS = (Polymer && Polymer.telemetry.registrations.map(v => v.is)) || []
 
 @Injectable()
 export class PolymerDomRootRenderer extends DomRootRenderer {

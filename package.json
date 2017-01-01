@@ -1,18 +1,34 @@
 {
   "name": "ng2-polymer-renderer",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.1-alpha.1",
+  "description": "Angular2 DomRenderer for Polymer.",
   "main": "index.ts",
   "module": "index.js",
   "typings": "index.d.ts",
   "scripts": {
     "compile": "ngc -p tsconfig-build.json",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "npm install && npm run demo:clean && npm run demo:start",
     "demo:clean": "cd demo/ && npm uninstall ng2-polymer-renderer && npm install",
-    "install:typings": "typings install"
+    "demo:start": "cd demo/ && npm start",
+    "install:typings": "typings install",
+    "precompile": "npm run install:typings",
+    "prepublish": "npm run compile"
   },
   "author": "Misty000",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misty000/ng2-polymer-renderer.git"
+  },
+  "keywords": [
+    "angular2",
+    "angularjs",
+    "polymer",
+    "vaadin",
+    "dom",
+    "renderer"
+  ],
   "devDependencies": {
     "@angular/common": "^2.4.1",
     "@angular/core": "^2.4.1",
